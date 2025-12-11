@@ -1,3 +1,180 @@
+
 body {
     background-color: #383D3B;
+    font-family: 'Inder', sans-serif;
+    color: #383D3B;
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+/* Header: */
+
+header {
+    background-color: #282A2A;
+    border: 5px solid #282A2A;
+    border-radius: 40px;
+    width: 100%;
+    color: #FFF1D6;
+    margin: -5px;
+    display: flex;
+    justify-content: space-around;
+	align-items: center;
+}
+
+header a {
+    color: #FFF1D6;
+}
+
+.logo {
+    margin-left: -50px;
+}
+
+.logo img {
+    width: 237px;
+    height: 135px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 200px;
+    margin-right: 40px;
+}
+
+.socials {
+    display: flex;
+    gap: 15px;
+}
+
+.social-button img {
+    width: 30px;
+    height: 30px;
+}
+
+.social-button {
+    background-color: #FFF1D6;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    border: 2px solid #FFB60A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+/* Body: */
+
+body h1 {
+    color: #C2320A;
+    text-align: center;
+    word-spacing: 10px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+/* About Me area */
+.about-me-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-container h2 {
+    color: #FFB60A;
+    text-align: center;
+}
+
+.about-me-box {
+    background-color: #FFB60A;
+    border-radius: 15px;
+    width: 700px;
+    height: 325px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-me-text-box {
+    background-color: #FFF1D6;
+    border: 10px solid #FFF1D6;
+    border-radius: 10px;
+    width: 380px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-me-text {
+    font-size: 18px;
+    word-spacing: 1px;
+}
+
+.about-me-image {
+    background-color: #FFF1D6;
+    border-radius: 10px;
+    width: 240px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-image img {
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+}
+
+/* Education area */
+.education-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.education-container h2 {
+    color: #C2320A;
+    text-align: center;
+}
+
+.education-box {
+    background-color: #C2320A;
+    border-radius: 15px;
+    width: 700px;
+    height: 325px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.middle-school-box {
+    background-color: #FFF1D6;
+    width: 300px;
+    height: 265px;
+    border: 10px solid #FFF1D6;
+    border-radius: 10px;
+    text-align: justify;
+    font-size: 19px;
+}
+
+.current-education-box {
+    background-color: #FFF1D6;
+    width: 300px;
+    height: 265px;
+    border: 10px solid #FFF1D6;
+    border-radius: 10px;
+    text-align: justify;
+    font-size: 19px;
+}
+
+.title-education {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 15px;
 }
