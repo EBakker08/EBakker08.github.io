@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -34,7 +35,7 @@
             </a>
         </button>
         <button class="social-button">
-            <a href="https://blank.page/">
+            <a href=""> <!-- Link to LinkedIn -->
                 <img src="img/linkedin-icon.png" alt="LinkedIn">
             </a>
         </button>
@@ -48,51 +49,78 @@
 
 <body>
     <h2>Projects</h2>
-    <div class="projects-container">
+    <div class="projects-introduction-text">text</div>
 
+    <!--  -->
+
+    <div class="project-options">
+        <select id="projectSelect">
+            <option value="">Select project</option>
+            <option value="pinkgoose">PinkGoose</option>
+            <option value="mastermind">Mastermind</option>
+            <option value="portfolio">Portfolio</option>
+        </select>
+    </div>
+
+    <!--  -->
+
+    <div class="projects-container">
         <div class="all-projects">
-            <div class="projects-info">
+            <div class="projects-info" id="pinkgoose">
                 <h4>PinkGoose</h4>
                 <div class="projects-text">text</div>
             </div>
             <div class="projects-info">
                 <div class="projects-images">
-                    <img src="img/Screenshot 2025-12-03 091259.png">
+                    <img src="img/Screenshot 2025-12-03 091259.png" alt="HTML Code PinkGoose">
                 </div>
                 <div class="projects-images">
-                    <img src="img/Screenshot 2025-12-03 091440.png">
+                    <img src="img/Screenshot 2025-12-03 091440.png" alt="PinkGoose Page">
                 </div>
             </div>
         </div>
-
-        <div class="all-projects">
-            <div class="projects-info">
+        <a href="https://github.com/EBakker08/PinkGoose">
+            <div class="show-in-git">
+                <div class="show-in-git-text">Show in Github</div>
+            </div>
+        </a>
+        <div class="all-projects-red">
+            <div class="projects-info-red" id="mastermind">
                 <h4>Mastermind</h4>
-                <div class="projects-text">text</div>
+                <div class="projects-text-red">text</div>
             </div>
-            <div class="projects-info">
-                <div class="projects-images">
-                    <img src="">
+            <div class="projects-info-red">
+                <div class="projects-images-red">
+                    <img src="img/Screenshot 2025-12-03 091027.png" alt="Java Code Mastermind">
                 </div>
             </div>
         </div>
-
+        <a href="https://github.com/EBakker08/Mastermind">
+            <div class="show-in-git-red">
+                <div class="show-in-git-text">Show in Github</div>
+            </div>
+        </a>
         <div class="all-projects">
-            <div class="projects-info">
+            <div class="projects-info" id="portfolio">
                 <h4>Portfolio</h4>
                 <div class="projects-text">text</div>
             </div>
             <div class="projects-info">
                 <div class="projects-images">
-                    <img src="">
+                    <img src="" alt="">
                 </div>
                 <div class="projects-images">
-                    <img src="">
+                    <img src="" alt="">
                 </div>
             </div>
         </div>
-
+        <a href="https://github.com/EBakker08/Portfolio">
+            <div class="show-in-git">
+                <div class="show-in-git-text">Show in Github</div>
+            </div>
+        </a>
     </div>
+    <script src="js/script.js"></script>    <!-- Link to JavaScript -->
 </body>
 
 <footer>
@@ -106,14 +134,14 @@
             </div>
         </div>
     </div>
-    <a href="https://blank.page/">
+    <a href=""> <!-- Link to Email -->
         <div class="contact-me-box">
             <div>Contact me</div>
         </div>
     </a>
     <div class="socials">
         <button class="social-button">
-            <a href="https://blank.page/">
+            <a href=""> <!-- Link to LinkedIn -->
                 <img src="img/linkedin-icon.png" alt="LinkedIn">
             </a>
         </button>

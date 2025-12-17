@@ -375,6 +375,33 @@ body h2 {
     text-align: center;
 }
 
+.projects-introduction-text {
+    color: #FFF1D6;
+    text-align: center;
+}
+
+/*  */
+
+.project-options select {
+    height: 25px;
+    width: 284px;
+    border: 2px solid #C2320A;
+    border-radius: 7px;
+    background: #FFF1D6;
+    color: #C2320A;
+}
+
+.project-options option {
+    height: 25px;
+    width: 284px;
+    border: 2px solid #C2320A;
+    border-radius: 7px;
+    background: #FFF1D6;
+    color: #C2320A;
+}
+
+/*  */
+
 .projects-container {
     display: flex;
     flex-direction: column;
@@ -436,4 +463,98 @@ body h2 {
     width: 90%;
     height: 90%;
     border-radius: 10px;
+}
+
+body a {
+    text-decoration: none;
+}
+
+.show-in-git {
+    color: #383D3B;
+    background-color: #FFF1D6;
+    border: 2px solid #FFB60A;
+    border-radius: 10px;
+    height: 30px;
+    width: 115px;
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.show-in-git:hover {
+    color: #FFB60A
+}
+
+.all-projects-red {
+    width: 690px;
+    height: 365px;
+    background-color: #C2320A;
+    border: 10px solid #C2320A;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.projects-info-red {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-info-red h4 {
+    width: 375px;
+    height: 40px;
+    background-color: #FFF1D6;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-text-red {
+    width: 375px;
+    height: 250px;
+    background-color: #FFF1D6;
+    border: 5px solid #FFF1D6;
+    border-radius: 10px;
+}
+
+.projects-images-red {
+    width: 280px;
+    height: 325px;
+    background-color: #FFF1D6;
+    border-radius: 15px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-images-red img {
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+}
+
+.show-in-git-red {
+    color: #383D3B;
+    background-color: #FFF1D6;
+    border: 2px solid #C2320A;
+    border-radius: 10px;
+    height: 30px;
+    width: 115px;
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.show-in-git-red:hover {
+    color: #C2320A
 }
