@@ -7,9 +7,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio-Home</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">    <!-- Link to CSS -->
     <link rel="icon"  type="image/png" href="img/Screenshot 2025-11-20 095152-2.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Link to Inder font -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inder&display=swap" rel="stylesheet">
 </head>
@@ -21,26 +21,26 @@
     <nav>
         <ul>
             <li>
-                <a href="index.html">Home</a>
+                <a href="index.html">Home</a>   <!-- Link to Home page -->
             </li>
             <li>
-                <a href="projects.html">Projects</a>
+                <a href="projects.html">Projects</a>    <!-- Link to Project page -->
             </li>
         </ul>
     </nav>
     <div class="socials">
         <button class="social-button">
-            <a href="https://www.instagram.com/e.bakker.08/">
+            <a href="https://www.instagram.com/e.bakker.08/">   <!-- Link to Instagram -->
                 <img src="img/insta-logo.png" alt="Instagram">
             </a>
         </button>
         <button class="social-button">
-            <a href=""> <!-- Link to LinkedIn -->
+            <a href="https://www.linkedin.com/in/erik-bakker-4989a6394/">   <!-- Link to LinkedIn -->
                 <img src="img/linkedin-icon.png" alt="LinkedIn">
             </a>
         </button>
         <button class="social-button">
-            <a href="https://github.com/EBakker08?tab=overview&from=2025-12-01&to=2025-12-12">
+            <a href="https://github.com/EBakker08?tab=overview&from=2025-12-01&to=2025-12-12">  <!-- Link to GitHub -->
                 <img src="img/github-icon.png" alt="GitHub">
             </a>
         </button>
@@ -113,32 +113,45 @@
     <div class="my-links-container">
         <h2>My Links</h2>
         <div class="all-icons-links">
-            <div class="my-links-box">
-                <div class="my-links-area">
-                    <div class="links-img-background">
-                        <img src="img/linkedin-icon.png" alt="LinkedIn Icon">
-                    </div>
-                    <div class="links-text-background">
-                        <a href=""> <!-- Link to LinkedIn -->
-                            <div class="links-text">LinkedIn</div>
-                        </a>
-                    </div>
-                </div>
+            <div class="contact-me-container">
+            <div class="contact-me-image">
+                <img src="img/linkedin-icon.png">
             </div>
-            <div class="my-links-box">
-                <div class="my-links-area">
-                    <div class="links-img-background">
-                        <img src="img/github-icon.png" alt="LinkedIn Icon">
-                    </div>
-                    <div class="links-text-background">
-                        <a href="https://github.com/EBakker08?tab=overview&from=2025-12-01&to=2025-12-12">
-                            <div class="links-text">GitHub</div>
-                        </a>
-                    </div>
-                </div>
+            <div class="contact-me-font">
+                <a href="https://www.linkedin.com/in/erik-bakker-4989a6394/">LinkedIn</a>   <!-- Link to LinkedIn -->
             </div>
         </div>
+        <div class="contact-me-container">
+            <div class="contact-me-image">
+                <img src="img/github-icon.png">
+            </div>
+            <div class="contact-me-font">
+                <a href="https://github.com/EBakker08?tab=overview&from=2025-12-01&to=2025-12-12">GitHub</a>    <!-- Link to GitHub -->
+            </div>
+        </div>
+        </div>
     </div>
+    <button id="backToTop" title="Go to top">↑</button>
+    <script>
+        const backToTopButton = document.getElementById("backToTop");
+
+        // show button after scrolling down
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 300) {
+                backToTopButton.classList.add("show");
+            } else {
+                backToTopButton.classList.remove("show");
+            }
+        });
+
+        // scroll back to top when clicked
+        backToTopButton.addEventListener("click", () => {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+    </script>   <!-- Reason why js is here and not in .js file: because of diffrent loading. -->
 </body>
 
 <footer>
@@ -152,19 +165,19 @@
             </div>
         </div>
     </div>
-    <a href=""> <!-- Link to Email -->
+    <a href="contact.html"> <!-- Link to Contact page -->
         <div class="contact-me-box">
             <div>Contact me</div>
         </div>
     </a>
     <div class="socials">
         <button class="social-button">
-            <a href=""> <!-- Link to LinkedIn -->
+            <a href="https://www.linkedin.com/in/erik-bakker-4989a6394/">   <!-- Link to LinkedIn -->
                 <img src="img/linkedin-icon.png" alt="LinkedIn">
             </a>
         </button>
         <button class="social-button">
-            <a href="https://github.com/EBakker08?tab=overview&from=2025-12-01&to=2025-12-12">
+            <a href="https://github.com/EBakker08?tab=overview&from=2025-12-01&to=2025-12-12">  <!-- Link to GitHub -->
                 <img src="img/github-icon.png" alt="GitHub">
             </a>
         </button>
