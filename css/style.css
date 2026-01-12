@@ -9,6 +9,8 @@ body {
     align-items: center;
 }
 
+
+
 /* -------------------------------------------------------------------------------------------------------- */
 /* Header: */
 
@@ -68,6 +70,8 @@ header button {
     width: 30px;
     height: 30px;
 }
+
+
 
 /* ------------------------------------------------------------------------------------------------------------- */
 /* Body: */
@@ -391,6 +395,8 @@ footer button {
     justify-content: center;
 }
 
+
+
 /* -------------------------------------------------------------------------------------------------------- */
 /* Portfolio.html: */
 
@@ -593,6 +599,8 @@ body a {
     color: #C2320A
 }
 
+
+
 /* --------------------------------------------------------------------------------------------- */
 /* Contact.html: */
 
@@ -674,4 +682,50 @@ body a {
 
 .contact-me-font-gmail a:hover {
     color: #FFB60A;
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------------------- */
+/* Responsive webdesign for mobile phone */
+
+@media (max-width: 700px) {
+    /* header: */
+    header {
+        border: 5px solid #282A2A;
+        border-radius: 20px;
+    }
+
+    .logo img {
+        width: 119px;
+        height: 68px;
+        margin-left: 50px;
+    }
+
+    nav ul {
+        font-size: 10px;
+        gap: 30px;
+        margin-right: 40px;
+    }
+
+    .socials {
+        display: flex;
+        gap: 10px;
+    }
+
+    header button {
+        width: 20px;
+        height: 20px;
+        border-radius: 50px;
+    }
+
+    .social-button img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .social-button img {
+        width: 15px;
+        height: 15px;
+    }
 }

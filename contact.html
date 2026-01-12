@@ -103,6 +103,27 @@
         </div>
     </div>
     <div class="white-space"></div>
+        <button id="backToTop" title="Go to top">↑</button>
+    <script>
+        const backToTopButton = document.getElementById("backToTop");
+
+        // show button after scrolling down
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 300) {
+                backToTopButton.classList.add("show");
+            } else {
+                backToTopButton.classList.remove("show");
+            }
+        });
+
+        // scroll back to top when clicked
+        backToTopButton.addEventListener("click", () => {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+    </script>   <!-- Reason why js is here and not in .js file: because of diffrent loading. -->
 </body>
 
 <footer>
