@@ -55,10 +55,24 @@
         <div class="contact-me-image">
             <img src="img/email-logo.png">
         </div>
-        <div class="contact-me-font">
-            <a href="https://mail.google.com/">Email</a>    <!-- Link to Email -->
+        <div class="contact-me-font-gmail" id="copyBtn">
+            <div>Email</div>    <!-- Link to Email -->
         </div>
     </div>
+    <script>
+        const email = "erik.bakker.nl@gmail.com";
+        const button = document.getElementById("copyBtn");
+
+        button.addEventListener("click", () => {
+        navigator.clipboard.writeText(email)
+            .then(() => {
+                alert("Email copied to clipboard!");
+            })
+            .catch(err => {
+                console.error("Failed to copy: ", err);
+            });
+        });
+  </script>
     <div class="space-inbetween"></div>
     <div class="all-contact-links">
         <div class="contact-me-container">

@@ -663,13 +663,31 @@ body a {
     color: #FFB60A;
 }
 
-.contact-me-font-gmail a {
-    color: #C2320A
+.contact-me-font-gmail {
+    width: 125px;
+    height: 30px;
+    background-color: #FFF1D6;
+    border: 2px solid #C2320A;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10px;
+    z-index: 1;
 }
 
-.contact-me-font-gmail a:hover {
+.contact-me-font-gmail div {
+    color: #C2320A;
+}
+
+.contact-me-font-gmail:hover {
     color: #FFB60A;
 }
+
+#copyBtn {
+    cursor: pointer;
+    color: #FFB60A;
+  }
 
 .space-inbetween {
     height: 50px;
@@ -837,6 +855,7 @@ body a {
     footer {
         border-radius: 20px;
         height: 80px;
+        width: 100%;
     }
 
     footer .links-text-background {
@@ -938,7 +957,7 @@ body a {
 
     /* Contact.html: */
     .all-contact-links { /*  */
-        width: 500px;
+        width: 100%;
         height: 200px;
         display: flex;
         flex-direction: column;
@@ -973,17 +992,7 @@ body a {
         margin-left: -10px;
     }
 
-    .contact-me-font-gmail { /*  */
-        width: 225px;
-        height: 30px;
-        border-radius: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: -10px;
-    }
-
     .space-inbetween {
-        height: 90px;
+        height: 100px;
     }
 }
