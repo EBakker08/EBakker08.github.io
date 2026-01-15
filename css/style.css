@@ -655,6 +655,10 @@ body a {
     z-index: 1;
 }
 
+#copyBtn:hover {
+    color: #C2320A;
+}
+
 .contact-me-font a {
     color: #C2320A
 }
@@ -674,14 +678,6 @@ body a {
     align-items: center;
     margin-left: -10px;
     z-index: 1;
-}
-
-.contact-me-font-gmail div {
-    color: #C2320A;
-}
-
-.contact-me-font-gmail:hover {
-    color: #FFB60A;
 }
 
 #copyBtn {
