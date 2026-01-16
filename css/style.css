@@ -997,18 +997,25 @@ body a {
         width: 50px;
         height: 50px;
         border-radius: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
     .contact-me-font {
         width: 125px;
         height: 30px;
         border-radius: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        margin-left: -10px;
+    }
+
+    .contact-me-image-gmail {
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+    }
+
+    .contact-me-font-gmail {
+        width: 125px;
+        height: 30px;
+        border-radius: 10px;
         margin-left: -10px;
     }
 
