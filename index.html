@@ -81,6 +81,9 @@
             </div>
         </div>
     </div>
+
+
+
     <div class="skills-tools-container">
         <h2>Skills and tools</h2>
         <div class="all-skills">
@@ -88,28 +91,56 @@
                 <div class="skill-box">
                     <img src="img/java-logo.png" alt="Java Icon">
                 </div>
-                <h4>Java</h4>
+                <button class="popup" onclick="myFunction()">
+                    Java
+                    <span class="popuptext" id="myPopup1">Popup text...</span>
+                </button>
             </div>
             <div class="skills-container">
                 <div class="skill-box">
-                    <img src="img/HTML5-logo.png" alt="Java Icon">
+                    <img src="img/HTML5-logo.png" alt="HTML5 Icon">
                 </div>
-                <h4>HTML5</h4>
+                <button class="popup" onclick="myFunction()">
+                    HTML5
+                    <span class="popuptext" id="myPopup2">Popup text...</span>
+                </button>
             </div>
             <div class="skills-container">
                 <div class="skill-box">
-                    <img src="img/CSS3-logo.png" alt="Java Icon">
+                    <img src="img/CSS3-logo.png" alt="CSS3 Icon">
                 </div>
-                <h4>CSS3</h4>
+                <button class="popup" onclick="myFunction()">
+                    CSS3
+                    <span class="popuptext" id="myPopup3">Popup text...</span>
+                </button>
             </div>
             <div class="skills-container">
                 <div class="skill-box">
-                    <img src="img/figma.png" alt="Java Icon">
+                    <img src="img/figma.png" alt="Figma Icon">
                 </div>
-                <h4>Figma</h4>
+                <button class="popup" onclick="myFunction()">
+                    Figma
+                    <span class="popuptext" id="myPopup4">Popup text...</span>
+                </button>
             </div>
         </div>
+        <script>
+            // When the user clicks on <div>, open the popup
+            function myFunction() {
+                var popup = document.getElementById("myPopup1");
+                popup.classList.toggle("show");
+                var popup = document.getElementById("myPopup2");
+                popup.classList.toggle("show");
+                var popup = document.getElementById("myPopup3");
+                popup.classList.toggle("show");
+                var popup = document.getElementById("myPopup4");
+                popup.classList.toggle("show");
+            }
+        </script>
     </div>
+
+
+    
     <div class="my-links-container">
         <h2>My Links</h2>
         <div class="all-icons-links">
