@@ -667,11 +667,28 @@ body a {
     color: #FFB60A;
 }
 
+.contact-me-image-gmail {
+    width: 50px;
+    height: 50px;
+    background-color: #FFF1D6;
+    border: 2px solid #FFB60A;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.contact-me-image-gmail img {
+    height: 80%;
+    width: 80%;
+}
+
 .contact-me-font-gmail {
     width: 125px;
     height: 30px;
     background-color: #FFF1D6;
-    border: 2px solid #C2320A;
+    border: 2px solid #FFB60A;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -884,21 +901,21 @@ body a {
     }
 
     .all-projects {
-        width: 394px;
+        width: 355px;
         height: 201px;
         border-radius: 10px;
         gap: 10px;
     }
 
     .projects-info h4 {
-        width: 245px;
+        width: 210px;
         height: 30px;
         border-radius: 8px;
         margin-top: 10px;
     }
 
     .projects-text {
-        width: 235px;
+        width: 205px;
         height: 125px;
         border-radius: 8px;
         margin-top: -10px;
@@ -918,21 +935,21 @@ body a {
     }
 
     .all-projects-red {
-        width: 394px;
+        width: 355px;
         height: 201px;
         border-radius: 10px;
         gap: 10px;
     }
 
     .projects-info-red h4 {
-        width: 245px;
+        width: 210px;
         height: 30px;
         border-radius: 8px;
         margin-top: 10px;
     }
 
     .projects-text-red {
-        width: 235px;
+        width: 205px;
         height: 125px;
         border-radius: 8px;
         margin-top: -10px;
@@ -952,7 +969,14 @@ body a {
     }
 
     /* Contact.html: */
-    .all-contact-links { /*  */
+    .contact-lead-text {
+    color:#FFF1D6;
+    text-align: center;
+    width: 50%;
+    font-size: 18px;
+    }
+
+    .all-contact-links {
         width: 100%;
         height: 200px;
         display: flex;
@@ -963,13 +987,13 @@ body a {
         gap: 20px;
     }
 
-    .contact-me-container { /*  */
+    .contact-me-container {
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .contact-me-image { /*  */
+    .contact-me-image {
         width: 50px;
         height: 50px;
         border-radius: 10px;
@@ -978,7 +1002,7 @@ body a {
         align-items: center;
     }
 
-    .contact-me-font { /*  */
+    .contact-me-font {
         width: 125px;
         height: 30px;
         border-radius: 10px;
