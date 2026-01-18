@@ -81,9 +81,6 @@
             </div>
         </div>
     </div>
-
-
-
     <div class="skills-tools-container">
         <h2>Skills and tools</h2>
         <div class="all-skills">
@@ -91,7 +88,7 @@
                 <div class="skill-box">
                     <img src="img/java-logo.png" alt="Java Icon">
                 </div>
-                <button class="popup" onclick="myFunction()">
+                <button class="popup" onclick="togglePopup(this)">
                     Java
                     <span class="popuptext" id="myPopup1">Popup text...</span>
                 </button>
@@ -100,7 +97,7 @@
                 <div class="skill-box">
                     <img src="img/HTML5-logo.png" alt="HTML5 Icon">
                 </div>
-                <button class="popup" onclick="myFunction()">
+                <button class="popup" onclick="togglePopup(this)">
                     HTML5
                     <span class="popuptext" id="myPopup2">Popup text...</span>
                 </button>
@@ -109,38 +106,37 @@
                 <div class="skill-box">
                     <img src="img/CSS3-logo.png" alt="CSS3 Icon">
                 </div>
-                <button class="popup" onclick="myFunction()">
+                <button class="popup" onclick="togglePopup(this)">
                     CSS3
                     <span class="popuptext" id="myPopup3">Popup text...</span>
                 </button>
             </div>
             <div class="skills-container">
                 <div class="skill-box">
+                    <img src="img/javascript-logo.png" alt="JavaScript Icon">
+                </div>
+                <button class="popup" onclick="togglePopup(this)">
+                    JavaScript
+                    <span class="popuptext" id="myPopup4">Popup text...</span>
+                </button>
+            </div>
+            <div class="skills-container">
+                <div class="skill-box">
                     <img src="img/figma.png" alt="Figma Icon">
                 </div>
-                <button class="popup" onclick="myFunction()">
+                <button class="popup" onclick="togglePopup(this)">
                     Figma
                     <span class="popuptext" id="myPopup4">Popup text...</span>
                 </button>
             </div>
         </div>
         <script>
-            // When the user clicks on <div>, open the popup
-            function myFunction() {
-                var popup = document.getElementById("myPopup1");
-                popup.classList.toggle("show");
-                var popup = document.getElementById("myPopup2");
-                popup.classList.toggle("show");
-                var popup = document.getElementById("myPopup3");
-                popup.classList.toggle("show");
-                var popup = document.getElementById("myPopup4");
+            function togglePopup(button) {
+                const popup = button.querySelector(".popuptext");
                 popup.classList.toggle("show");
             }
         </script>
     </div>
-
-
-    
     <div class="my-links-container">
         <h2>My Links</h2>
         <div class="all-icons-links">

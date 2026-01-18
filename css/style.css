@@ -770,6 +770,9 @@ body a {
     height: 50px;
 }
 
+.space-after {
+    height: 150px;
+}
 
 
 /* ------------------------------------------------------------------------------------------------------------- */
@@ -883,6 +886,11 @@ body a {
     /* Skills and Tools area */
     .all-skills {
         gap: 45px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 250px;
     }
 
     .skill-box {
@@ -1085,5 +1093,9 @@ body a {
 
     .space-inbetween {
         height: 100px;
+    }
+
+    .space-after {
+        height: 150px;
     }
 }
