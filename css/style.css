@@ -55,7 +55,7 @@ nav ul {
     gap: 15px;
 }
 
-header button {
+.socials a {
     background-color: #FFF1D6;
     width: 40px;
     height: 40px;
@@ -66,7 +66,7 @@ header button {
     justify-content: center;
 }
 
-.social-button img {
+.socials img {
     width: 30px;
     height: 30px;
 }
@@ -534,7 +534,7 @@ body h2 {
     align-items: center;
 }
 
-.projects-info h4 {
+.projects-info h3 {
     width: 375px;
     height: 40px;
     background-color: #FFF1D6;
@@ -612,7 +612,7 @@ body a {
     align-items: center;
 }
 
-.projects-info-red h4 {
+.projects-info-red h3 {
     width: 375px;
     height: 40px;
     background-color: #FFF1D6;
@@ -900,8 +900,8 @@ body a {
         width: 45px;
         height: 45px;
     }
-    
-    .skills-container h4 {
+
+    .skills-container h3 {
         font-size: 12px;
     }
 
@@ -982,7 +982,7 @@ body a {
         font-size: 10px;
     }
 
-    .projects-info h4 {
+    .projects-info h3 {
         width: 210px;
         height: 30px;
         border-radius: 8px;
